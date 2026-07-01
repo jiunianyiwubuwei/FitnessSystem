@@ -1,0 +1,33 @@
+# 材料文件夹 - 不上传
+材料/
+
+# 使用说明 - 不上传
+舞蹈评分系统使用说明.md
+
+# Office 临时文件
+~$*.pptx
+~$*.docx
+~$*.xlsx
+
+# Python 虚拟环境（体积太大）
+后端/admin_project/Lib/
+后端/admin_project/Scripts/
+后端/admin_project/pyvenv.cfg
+
+# IDE 配置文件
+.idea/
+**/.idea/
+
+# Node 依赖
+node_modules/
+**/node_modules/
+
+# Python 缓存
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+
+# 系统文件
+.DS_Store
+Thumbs.db

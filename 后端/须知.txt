@@ -1,0 +1,5 @@
+主要结构：
+anaconda虚拟环境
+django框架
+mediapipe
+django_framework

@@ -1,0 +1,15 @@
+Django==4.2.20
+mediapipe== 0.10.21
+opencv-python==4.6.0.66
+mysqlclient==2.1.1
+djangorestframework==3.14.0
+numpy==1.24.3
+python-dotenv==0.21.1
+django-cors-headers==4.7.0       
+djangorestframework-jwt==1.11.0           
+packaging==25.0          
+pandas==2.3.1           
+pip==25.1          
+pyparsing==3.2.3         
+python==3.9.23           
+requests==2.32.4        
