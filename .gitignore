@@ -1,33 +1,35 @@
-# 材料文件夹 - 不上传
-材料/
+# 虚拟环境
+**/Lib/
+**/Scripts/
+**/pyvenv.cfg
 
-# 使用说明 - 不上传
-舞蹈评分系统使用说明.md
+# 依赖
+**/node_modules/
+
+# Python 缓存
+**/__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.idea/
+**/.idea/
+
+# 系统文件
+.DS_Store
+Thumbs.db
 
 # Office 临时文件
 ~$*.pptx
 ~$*.docx
 ~$*.xlsx
 
-# Python 虚拟环境（体积太大）
-后端/admin_project/Lib/
-后端/admin_project/Scripts/
-后端/admin_project/pyvenv.cfg
+# 上传时排除的文件夹（项目根目录）
+/.claude/
+/材料/
+/文档/
 
-# IDE 配置文件
-.idea/
-**/.idea/
-
-# Node 依赖
-node_modules/
-**/node_modules/
-
-# Python 缓存
-__pycache__/
-**/__pycache__/
-*.pyc
-*.pyo
-
-# 系统文件
-.DS_Store
-Thumbs.db
+# 用户上传的媒体文件（太大不上传）
+**/media/show/
+**/media/userAvatar/
+**/media/video/
